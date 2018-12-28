@@ -1,0 +1,3884 @@
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_zySRrs5p ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_zySRrs5p">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-draw">
+     <span class="stats-draw" title="Draw">
+      Draw
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_zySRrs5p">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_18 left" title="Algeria">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       ALGERIA:
+      </span>
+      <span class="tournament_part">
+       Algeria Cup
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_18_6mNsUS0p" data-label-key="1_18_6mNsUS0p" onclick="cjs.myLeagues.toggleTop('1_18_6mNsUS0p', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first stage-scheduled" id="g_1_xWCtfsk1">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    14:30
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Annaba
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Bazer Sakhra
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+  <tr class="even stage-scheduled" id="g_1_ALS11PdR">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    14:30
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Bouguirat
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     CRB Kais
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+  <tr class=" stage-scheduled" id="g_1_rgs6hkVg">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    14:30
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Mohammadia SA
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Ghriss
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+  <tr class="even stage-scheduled" id="g_1_OS8xeNZf">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    14:30
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     RA Ain Defla
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Oran
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="2">
+     </span>
+    </span>
+   </td>
+  </tr>
+  <tr class=" stage-scheduled" id="g_1_2DKTdq5r">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    15:00
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Mlila
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Bejaia
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+  <tr class="even stage-scheduled" id="g_1_AqBlhLJD">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    16:00
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Bordj Bou Arreridj
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Tlemcen
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_tdBtmknB ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_tdBtmknB">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_tdBtmknB">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_24 left" title="Australia">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       AUSTRALIA:
+      </span>
+      <span class="tournament_part">
+       A-League
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_24_OjWW1naM" data-label-key="1_24_OjWW1naM" onclick="cjs.myLeagues.toggleTop('1_24_OjWW1naM', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first stage-finished" id="g_1_bBGAEA9g">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    09:50
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+     Finished
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Melbourne Victory
+    </span>
+   </td>
+   <td class="cell_sa score bold ">
+    1 - 1
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Wellington Phoenix
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+    (0 - 0)
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_KMpoB4mr ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_KMpoB4mr">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_KMpoB4mr">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_24 left" title="Australia">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       AUSTRALIA:
+      </span>
+      <span class="tournament_part">
+       W-League
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_24_tbR6H4dE" data-label-key="1_24_tbR6H4dE" onclick="cjs.myLeagues.toggleTop('1_24_tbR6H4dE', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first even stage-finished" id="g_1_zNbE1ijM">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    07:20
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+     Finished
+    </span>
+   </td>
+   <td class="cell_ab team-home bold ">
+    <span class="padr">
+     Melbourne Victory W
+    </span>
+   </td>
+   <td class="cell_sa score bold ">
+    2 - 1
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Perth W
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+    (1 - 0)
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_0UizItNp ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_0UizItNp">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_0UizItNp">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_28 left" title="Bahrain">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       BAHRAIN:
+      </span>
+      <span class="tournament_part">
+       Bahrain Cup
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_28_raN2hj8c" data-label-key="1_28_raN2hj8c" onclick="cjs.myLeagues.toggleTop('1_28_raN2hj8c', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first stage-scheduled" id="g_1_WxxP5r5M">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    14:15
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Al-Hadd
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Al-Ittihad
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="2">
+     </span>
+    </span>
+   </td>
+  </tr>
+  <tr class="even stage-scheduled" id="g_1_4Syp5BEB">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    14:15
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Al-Shabbab
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Al-Ahli Manama
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+  <tr class=" stage-scheduled" id="g_1_0CtT42KS">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    14:15
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Qalali
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Isa Town
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+  <tr class="even stage-scheduled" id="g_1_IVul4VTH">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    14:15
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Tadamun Buri
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Busaiteen
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="2">
+     </span>
+    </span>
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_YNTexQ8E ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_YNTexQ8E">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_YNTexQ8E">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_34 left" title="Benin">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       BENIN:
+      </span>
+      <span class="tournament_part">
+       Championnat National
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_34_ADm0U6gP" data-label-key="1_34_ADm0U6gP" onclick="cjs.myLeagues.toggleTop('1_34_ADm0U6gP', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first no-service-info stage-scheduled" id="g_1_2XEVMRfl">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    16:00
+   </td>
+   <td class="cell_aa timer ">
+    <span class="final_result_only">
+     FRO
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     ASPAC
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     FC Esae
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_QuamDlPs ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_QuamDlPs">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_QuamDlPs">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_39 left" title="Brazil">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       BRAZIL:
+      </span>
+      <span class="tournament_part">
+       Campeonato Carioca - First round
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_39_IHuPOQcm" data-label-key="1_39_IHuPOQcm" onclick="cjs.myLeagues.toggleTop('1_39_IHuPOQcm', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first even stage-scheduled" id="g_1_44s3QYPq">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    22:30
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     America RJ
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Resende
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_hpdHaBum ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_hpdHaBum">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_hpdHaBum">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_42 left" title="Burkina Faso">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       BURKINA FASO:
+      </span>
+      <span class="tournament_part">
+       Premier League
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_42_zuRA3mqS" data-label-key="1_42_zuRA3mqS" onclick="cjs.myLeagues.toggleTop('1_42_zuRA3mqS', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first no-service-info stage-scheduled" id="g_1_MPBsLjp9">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    17:30
+   </td>
+   <td class="cell_aa timer ">
+    <span class="final_result_only">
+     FRO
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     AS Douanes
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     USFA
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_rDBGXxxS ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_rDBGXxxS">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_rDBGXxxS">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_64 left" title="Djibouti">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       DJIBOUTI:
+      </span>
+      <span class="tournament_part">
+       Division 1
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_64_lKK6w5je" data-label-key="1_64_lKK6w5je" onclick="cjs.myLeagues.toggleTop('1_64_lKK6w5je', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first even no-service-info stage-scheduled" id="g_1_Ic6ce72q">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    13:00
+   </td>
+   <td class="cell_aa timer ">
+    <span class="final_result_only">
+     FRO
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     ASAS
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Jago
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+  <tr class=" no-service-info stage-scheduled" id="g_1_W0A1fRHk">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    15:00
+   </td>
+   <td class="cell_aa timer ">
+    <span class="final_result_only">
+     FRO
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Gendarmerie
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Arta / SIHD
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+  <tr class="even no-service-info stage-scheduled" id="g_1_EPa6goXe">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    17:00
+   </td>
+   <td class="cell_aa timer ">
+    <span class="final_result_only">
+     FRO
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Dikhil
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     AS Kartileh
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_M7MRLNVp ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_M7MRLNVp">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_M7MRLNVp">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_55 left" title="DR Congo">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       DR CONGO:
+      </span>
+      <span class="tournament_part">
+       Super Ligue
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_55_2qYslbGL" data-label-key="1_55_2qYslbGL" onclick="cjs.myLeagues.toggleTop('1_55_2qYslbGL', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first no-service-info stage-scheduled" id="g_1_GUyJnWYD">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    15:30
+   </td>
+   <td class="cell_aa timer ">
+    <span class="final_result_only">
+     FRO
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Lubumbashi Sport
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Nyuki
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_Wzi9DmU0 ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_Wzi9DmU0">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_Wzi9DmU0">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_69 left" title="Egypt">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       EGYPT:
+      </span>
+      <span class="tournament_part">
+       Premier League
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_69_xbpjAGxq" data-label-key="1_69_xbpjAGxq" onclick="cjs.myLeagues.toggleTop('1_69_xbpjAGxq', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first even stage-scheduled" id="g_1_UDZ9RSLG">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    18:00
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Zamalek
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Petrojet
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_vRPwpQWC ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_vRPwpQWC">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_vRPwpQWC">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_86 left" title="Guinea">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       GUINEA:
+      </span>
+      <span class="tournament_part">
+       Ligue 1
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_86_OjlujDPN" data-label-key="1_86_OjlujDPN" onclick="cjs.myLeagues.toggleTop('1_86_OjlujDPN', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first no-service-info stage-scheduled" id="g_1_pQJCoMDq">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    17:30
+   </td>
+   <td class="cell_aa timer ">
+    <span class="final_result_only">
+     FRO
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     CO Coyah
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Satellite
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_CEMOP5w0 ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_CEMOP5w0">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_CEMOP5w0">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_93 left" title="India">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       INDIA:
+      </span>
+      <span class="tournament_part">
+       I-League
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_93_OQyqbHWB" data-label-key="1_93_OQyqbHWB" onclick="cjs.myLeagues.toggleTop('1_93_OQyqbHWB', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first even stage-finished" id="g_1_CIIkefO4">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    09:30
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+     Finished
+    </span>
+   </td>
+   <td class="cell_ab team-home bold ">
+    <span class="padr">
+     NEROCA
+    </span>
+   </td>
+   <td class="cell_sa score bold ">
+    2 - 1
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Mohun Bagan
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+    (1 - 0)
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+  <tr class=" stage-scheduled" id="g_1_OhMgfEwB">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    12:30
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     East Bengal
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Real Kashmir
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+     <span class="shirt icon2">
+     </span>
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_IDSVbeOt ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_IDSVbeOt">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_IDSVbeOt">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_97 left" title="Israel">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       ISRAEL:
+      </span>
+      <span class="tournament_part">
+       Leumit League
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_97_QeijuHo5" data-label-key="1_97_QeijuHo5" onclick="cjs.myLeagues.toggleTop('1_97_QeijuHo5', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first even stage-scheduled" id="g_1_CQYe5zYD">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    14:00
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Ashkelon
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     H. Nazareth
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+  <tr class=" stage-scheduled" id="g_1_rFCvcCuf">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    14:00
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Hap. Ramat Gan
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Hapoel Petah Tikva
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+  <tr class="even stage-scheduled" id="g_1_pKpEtieD">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    14:00
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Hapoel Afula
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Nes Tziona
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+  <tr class=" stage-scheduled" id="g_1_jHXa4fmK">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    14:00
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Hapoel Bnei Lod
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     H. Akko
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+  <tr class="even stage-scheduled" id="g_1_0j7qdWf0">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    14:00
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     M. Nazareth
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Hapoel Iksal Imad
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_4QAXQtRl ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_4QAXQtRl">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_4QAXQtRl">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_58 left" title="Ivory Coast">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       IVORY COAST:
+      </span>
+      <span class="tournament_part">
+       Ligue 1
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_58_pQS4X6DR" data-label-key="1_58_pQS4X6DR" onclick="cjs.myLeagues.toggleTop('1_58_pQS4X6DR', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first no-service-info stage-scheduled" id="g_1_EHg7jr7A">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    16:30
+   </td>
+   <td class="cell_aa timer ">
+    <span class="final_result_only">
+     FRO
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Bassam
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     ASEC Mimosas
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+  <tr class="even no-service-info stage-scheduled" id="g_1_tjt0h4xb">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    16:30
+   </td>
+   <td class="cell_aa timer ">
+    <span class="final_result_only">
+     FRO
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     San Pedro
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     SO Armee
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_lflqTdpq ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_lflqTdpq">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_lflqTdpq">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_114 left" title="Libya">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       LIBYA:
+      </span>
+      <span class="tournament_part">
+       Premier League
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_114_fX53MoL1" data-label-key="1_114_fX53MoL1" onclick="cjs.myLeagues.toggleTop('1_114_fX53MoL1', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first no-service-info stage-scheduled" id="g_1_CdTW5FMI">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    14:00
+   </td>
+   <td class="cell_aa timer ">
+    <span class="final_result_only">
+     FRO
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Al Nasr
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Darnes
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_xQH6n2t8 ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_xQH6n2t8">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_xQH6n2t8">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_126 left" title="Mauritania">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       MAURITANIA:
+      </span>
+      <span class="tournament_part">
+       Super D1
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_126_O0LCg2k7" data-label-key="1_126_O0LCg2k7" onclick="cjs.myLeagues.toggleTop('1_126_O0LCg2k7', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first even no-service-info stage-scheduled" id="g_1_8Kjb3UXC">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    17:00
+   </td>
+   <td class="cell_aa timer ">
+    <span class="final_result_only">
+     FRO
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Kaedi
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Deuz
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+  <tr class=" no-service-info stage-scheduled" id="g_1_Qe1g4AI6">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    17:00
+   </td>
+   <td class="cell_aa timer ">
+    <span class="final_result_only">
+     FRO
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Nouadhibou
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     ASAC Concorde
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_dOimSr59 ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_dOimSr59">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_dOimSr59">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_142 left" title="Niger">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       NIGER:
+      </span>
+      <span class="tournament_part">
+       Ligue 1
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_142_ATL2voyk" data-label-key="1_142_ATL2voyk" onclick="cjs.myLeagues.toggleTop('1_142_ATL2voyk', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first even no-service-info stage-scheduled" id="g_1_f7ZzsjvP">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    16:00
+   </td>
+   <td class="cell_aa timer ">
+    <span class="final_result_only">
+     FRO
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Espoir
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Tahoua
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+  <tr class=" no-service-info stage-scheduled" id="g_1_GGzXsWOI">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    16:00
+   </td>
+   <td class="cell_aa timer ">
+    <span class="final_result_only">
+     FRO
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Nigelec
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Jangorzo
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_jVIQ0uQD ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_jVIQ0uQD">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats live-table-txt" title="Live Standings">
+      Live Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_jVIQ0uQD">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_147 left" title="Pakistan">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       PAKISTAN:
+      </span>
+      <span class="tournament_part">
+       Premier League
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_147_jHOaboMe" data-label-key="1_147_jHOaboMe" onclick="cjs.myLeagues.toggleTop('1_147_jHOaboMe', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first even stage-live" id="g_1_zTegUQWT">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time time-playing ">
+    11:00
+   </td>
+   <td class="cell_aa timer playing ">
+    <span>
+     72
+     <span class="blink">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     KESC FC
+    </span>
+   </td>
+   <td class="cell_sa score bold playing ">
+    0 - 0
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     SNGPL
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+    (0 - 0)
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="clive icon0" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_4YG1suCf ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_4YG1suCf">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_4YG1suCf">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_155 left" title="Portugal">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       PORTUGAL:
+      </span>
+      <span class="tournament_part">
+       League Cup
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_155_WdKOwxDM" data-label-key="1_155_WdKOwxDM" onclick="cjs.myLeagues.toggleTop('1_155_WdKOwxDM', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first stage-scheduled" id="g_1_2yoy8WGU">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    20:00
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Setubal
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Braga
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+     <span class="tv icon1">
+     </span>
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+  <tr class="even stage-scheduled" id="g_1_vcMtTFnt">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    20:00
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Tondela
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Nacional
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+     <span class="tv icon1">
+     </span>
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+  <tr class=" stage-scheduled" id="g_1_SrOJDzmg">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    22:15
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Aves
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Benfica
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+     <span class="tv icon1">
+     </span>
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+  <tr class="even stage-scheduled" id="g_1_A7DOCf2a">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    22:15
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Rio Ave
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Ferreira
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+     <span class="tv icon1">
+     </span>
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_AVsLgusN ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_AVsLgusN">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_AVsLgusN">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_159 left" title="Rwanda">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       RWANDA:
+      </span>
+      <span class="tournament_part">
+       National Football league
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_159_2iKGhM4D" data-label-key="1_159_2iKGhM4D" onclick="cjs.myLeagues.toggleTop('1_159_2iKGhM4D', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first stage-scheduled" id="g_1_GjDuiYDJ">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    14:30
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     APR
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Gicumbi
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="2">
+     </span>
+    </span>
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_bmtL3VsI ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_bmtL3VsI">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_bmtL3VsI">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_165 left" title="Saudi Arabia">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       SAUDI ARABIA:
+      </span>
+      <span class="tournament_part">
+       Saudi Professional League
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_165_tUxUbLR2" data-label-key="1_165_tUxUbLR2" onclick="cjs.myLeagues.toggleTop('1_165_tUxUbLR2', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first even stage-scheduled" id="g_1_llqMShnP">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    13:00
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Al-Fateh
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Al-Nassr
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+  <tr class=" stage-scheduled" id="g_1_OtzlOCft">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    13:20
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Al-Hazem
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Al-Shabab
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+  <tr class="even stage-scheduled" id="g_1_EVS0LAva">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    16:30
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Al Wehda
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Al Ahli SC
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_jm0efsOE ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_jm0efsOE">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_jm0efsOE">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_199 left" title="Scotland">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       SCOTLAND:
+      </span>
+      <span class="tournament_part">
+       Lowland League
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_199_rLOykBpM" data-label-key="1_199_rLOykBpM" onclick="cjs.myLeagues.toggleTop('1_199_rLOykBpM', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first no-service-info stage-scheduled" id="g_1_WrcjySOp">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    20:45
+   </td>
+   <td class="cell_aa timer ">
+    <span class="final_result_only">
+     FRO
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     East Stirlingshire
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Stirling University
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_UZMt8Zb0 ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_UZMt8Zb0">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_UZMt8Zb0">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_177 left" title="Sri Lanka">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       SRI LANKA:
+      </span>
+      <span class="tournament_part">
+       Champions League
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_177_UXM93mOS" data-label-key="1_177_UXM93mOS" onclick="cjs.myLeagues.toggleTop('1_177_UXM93mOS', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first even no-service-info stage-scheduled" id="g_1_lhyPvy4f">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    11:15
+   </td>
+   <td class="cell_aa timer ">
+    <span class="final_result_only">
+     FRO
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Blue Star
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Colombo
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_z3Upeyo7 ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_z3Upeyo7">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_z3Upeyo7">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_185 left" title="Tanzania">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       TANZANIA:
+      </span>
+      <span class="tournament_part">
+       Ligi Kuu Bara
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_185_GUjrKsoI" data-label-key="1_185_GUjrKsoI" onclick="cjs.myLeagues.toggleTop('1_185_GUjrKsoI', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first no-service-info stage-scheduled" id="g_1_no6aTC56">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    12:00
+   </td>
+   <td class="cell_aa timer ">
+    <span class="final_result_only">
+     FRO
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Kinondoni MC
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Mbao
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+  <tr class="even stage-scheduled" id="g_1_tpa8RjzJ">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    14:00
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Kagera Sugar
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     JKT Tanzania
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+  <tr class=" stage-scheduled" id="g_1_fmmjjzDJ">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    14:00
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Stand U.
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Alliance
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+  <tr class="even stage-scheduled" id="g_1_U9e4SWKC">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    14:00
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Tanzania Prisons
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Coastal Union
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_2kAKyY2p ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_2kAKyY2p">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_2kAKyY2p">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_194 left" title="Uganda">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       UGANDA:
+      </span>
+      <span class="tournament_part">
+       Premier League
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_194_EFmsCyda" data-label-key="1_194_EFmsCyda" onclick="cjs.myLeagues.toggleTop('1_194_EFmsCyda', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first stage-scheduled" id="g_1_z7nkxJH4">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    14:00
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Express FC
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Nyamityobora
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+  <tr class="even stage-scheduled" id="g_1_IVipwa2b">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    14:00
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     URA SC
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Onduparaka FC
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_SAGxboJ3 ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_SAGxboJ3">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-draw">
+     <span class="stats-draw" title="Draw">
+      Draw
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_SAGxboJ3">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_196 left" title="United Arab Emirates">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       UNITED ARAB EMIRATES:
+      </span>
+      <span class="tournament_part">
+       Arabian Gulf Cup - Play Offs
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_196_6aJGVdsQ" data-label-key="1_196_6aJGVdsQ" onclick="cjs.myLeagues.toggleTop('1_196_6aJGVdsQ', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first stage-scheduled" id="g_1_2y1Cj8r9">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    13:55
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Al Ain
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Bani Yas
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="2">
+     </span>
+    </span>
+   </td>
+  </tr>
+  <tr class="even stage-scheduled" id="g_1_dCFFkScF">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    16:30
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Al Nasr
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Al Wasl
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="2">
+     </span>
+    </span>
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_S0HEfuQb ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_S0HEfuQb">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="stats-link link-tables">
+     <span class="stats" title="Standings">
+      Standings
+     </span>
+    </span>
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_S0HEfuQb">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_207 left" title="Wales">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       WALES:
+      </span>
+      <span class="tournament_part">
+       Division 1
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_207_dSKTBglt" data-label-key="1_207_dSKTBglt" onclick="cjs.myLeagues.toggleTop('1_207_dSKTBglt', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first stage-scheduled" id="g_1_0r1UEvBm">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    20:30
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Briton Ferry
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Penybont
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+  <tr class="even stage-scheduled" id="g_1_xldg9zuP">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    20:30
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Ton Pentre
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Haverfordwest
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+  <tr class=" stage-scheduled" id="g_1_jXgsCxe6">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    20:45
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Goytre AFC
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Afan Lido
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_A1EssyS3 ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_A1EssyS3">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_A1EssyS3">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_8 left" title="World">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       WORLD:
+      </span>
+      <span class="tournament_part">
+       Friendly International
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_8_f1GbGBCd" data-label-key="1_8_f1GbGBCd" onclick="cjs.myLeagues.toggleTop('1_8_f1GbGBCd', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first even no-service-info stage-scheduled" id="g_1_KUpmMY9U">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    12:00
+   </td>
+   <td class="cell_aa timer ">
+    <span class="final_result_only">
+     FRO
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Iraq
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Palestine
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+  <tr class=" stage-scheduled" id="g_1_fs0xLIFf">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    13:00
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Jordan
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     China
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+   </td>
+  </tr>
+  <tr class="even stage-scheduled" id="g_1_ruYSucDB">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    15:30
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     United Arab Emirates
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Kuwait
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="5">
+     </span>
+    </span>
+   </td>
+  </tr>
+ </tbody>
+</table>
+<table <colgroup="" class="soccer">
+ <colgroup>
+  <col width="24"/>
+  <col width="47"/>
+  <col width="69"/>
+  <col width="168"/>
+  <col width="50"/>
+  <col width="168"/>
+  <col width="47"/>
+  <col width="59"/>
+  <col width="28"/>
+ </colgroup>
+ <thead>
+  <tr class="league l_1_8AXftYPd ">
+   <td class="head_aa " colspan="1">
+    <div class="dicons">
+     <span class="icons left">
+      <span class="tomyg" id="latomyg_1_8AXftYPd">
+      </span>
+     </span>
+    </div>
+   </td>
+   <td class="head_ab " colspan="8">
+    <span class="expand-collapse-icon">
+     <span class="collapse-league" id="d1_8AXftYPd">
+     </span>
+    </span>
+    <span class="country left">
+     <span class="flag fl_8 left" title="World">
+     </span>
+     <span class="name">
+      <span class="country_part">
+       WORLD:
+      </span>
+      <span class="tournament_part">
+       Club Friendly
+      </span>
+     </span>
+    </span>
+    <span class="toggleMyLeague 1_8_Ox0MZaDH" data-label-key="1_8_Ox0MZaDH" onclick="cjs.myLeagues.toggleTop('1_8_Ox0MZaDH', event); return false;" title="Add this league to My Leagues!">
+    </span>
+   </td>
+  </tr>
+ </thead>
+ <tbody>
+  <tr class="tr-first stage-scheduled" id="g_1_UNb1sw2I">
+   <td class="cell_ib icons left ">
+    <span class="icons left">
+     <span class="tomyg icon0">
+     </span>
+    </span>
+   </td>
+   <td class="cell_ad time ">
+    13:45
+   </td>
+   <td class="cell_aa timer ">
+    <span>
+    </span>
+   </td>
+   <td class="cell_ab team-home ">
+    <span class="padr">
+     Perlis (Mys)
+    </span>
+   </td>
+   <td class="cell_sa score ">
+    -
+   </td>
+   <td class="cell_ac team-away ">
+    <span class="padl">
+     Penang (Mys)
+    </span>
+   </td>
+   <td class="cell_sb part-top ">
+   </td>
+   <td class="cell_ia icons ">
+    <span class="icons">
+    </span>
+   </td>
+   <td class="cell_oq comparison ">
+    <span class="icons">
+     <span class="slive icon0 xxx" data-bookmaker-id="2">
+     </span>
+    </span>
+   </td>
+  </tr>
+ </tbody>
+</table>
+<div class="table-line-bottom">
+</div>
+<div class="copyright">
+ <div id="sync-indicator" ondblclick="sync_change()">
+  <span class="push" title="SyncP (p8:443)">
+  </span>
+ </div>
+</div>
