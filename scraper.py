@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
@@ -22,15 +23,15 @@ path = '/Users/vpetrov/PycharmProjects/FootballAPI/'
 def scrapesite():
 
     # open website
+    options = Options()
+    options.headless = True
 
-    driver = webdriver.Chrome('/Users/vpetrov/PycharmProjects/FootballAPI/venv/bin/chromedriver')
-    driver.get('http://www.google.com/xhtml');
+    driver = webdriver.Chrome('/Users/vpetrov/PycharmProjects/FootballAPI/venv/bin/chromedriver', options=options)
+    driver.get('http://www.google.com/xhtml')
 
     time.sleep(1) # Let the user actually see something!
 
-    print('opening site ...')
     driver.get("https://www.flashscore.com/football/")
-    print('site open...')
 
     wait = WebDriverWait(driver, 1)
 
@@ -58,7 +59,7 @@ def extractlivescores():
 
     soup = BeautifulSoup(lines, 'html.parser')
 
-    cols = ['progress','timer','nation','league','time_of_match', 'team_home', 'team_away', 'score', 'hgoals', 'ggoals', 'htscore', 'redcard', 'match_id']
+    cols = ['progress','timer','nation','league','time_of_match', 'team_home', 'team_away', 'score', 'hgoals', 'ggoals', 'htscore', 'hthgoals', 'htggoals', 'redcard', 'match_id']
     allgamesdf = pd.DataFrame(columns=cols)
 
     for table in soup.findAll("table", {"class": 'soccer'}):
@@ -94,15 +95,23 @@ def extractlivescores():
             score = ''
             hgoals = ''
             ggoals = ''
+            hthgoals = ''
+            htggoals = ''
             redcard = ''
             progress = ''
 
             if any(x in ['stage-live', 'stage-finished'] for x in classes):
                 if 'stage-live' in classes:
                     progress = 'live'
+                    htscore = tr.find("td", {"class": lambda x: x and "part-top" in x.split()}).text
+                    try:
+                        hthgoals = htscore.replace("(", "").split('-')[0]
+                        htggoals = htscore.replace(")", "").split('-')[1]
+                    except:
+                        htggoals = 0
+                        htggoals = 0
                 else: progress = 'finished'
 
-                htscore = tr.find("td", {"class": lambda x: x and "part-top" in x.split()}).text
                 score = tr.find("td", {"class": lambda x: x and "score" in x.split()}).text
                 hgoals = score.split('-')[0]
                 ggoals = score.split('-')[1]
@@ -123,7 +132,7 @@ def extractlivescores():
             elif 'stage-finished' in classes:
                 progress = 'finished'
 
-            row = list(map(str.strip,[progress, timer, nation, league, time_of_match, team_home, team_away, score, hgoals, ggoals, htscore, redcard, match_id]))
+            row = list(map(str.strip,[progress, timer, nation, league, time_of_match, team_home, team_away, score, hgoals, ggoals, htscore, hthgoals, htggoals, redcard, match_id]))
             allgamesdf = allgamesdf.append(pd.DataFrame([row], columns=cols), ignore_index=True)
     # print(df)
     f.close()
@@ -142,7 +151,7 @@ def addwatchlistinfo():
     values = {'fhg': '', 'shg': ''}
     watchlist = pd.read_csv(path + 'watchlist.csv')
     watchlist['Match'] = watchlist['Match'].str.strip()
-    watchlist['team_home'], watchlist['team_away'] = watchlist['Match'].str.split(' vs. ', 1).str
+    watchlist['team_home'], watchlist['team_away'] = watchlist['Match'].str.split(' v ', 1).str
     watchlist = watchlist[["team_home","team_away","fhg","shg"]].fillna(value= values)
     watchlist.to_csv(path + 'watchlistnew.csv', index=False)
 
@@ -164,25 +173,28 @@ def findlateshg():
         msg_late00 = '###### SH 0-0 Alert #######\n'
         for index, row in lategames.iterrows():
             summary = 'Reached {}\' in {} - {} ({}) at {}-{}'.format(row['timer'],row['team_home'],row['team_away'],row['nation'],row['hgoals'],row['ggoals']) + '\n' + \
-                    'Check stats at https://www.flashscore.com/match/{}/#match-statistics;0'.format(row['match_id'])
+                    'Check stats at https://www.flashscore.com/match/{}/#match-statistics;0\n'.format(row['match_id'])
 
             print('Checking {} - {} ({}-{})'.format(row['team_home'],row['team_away'],row['hgoals'],row['ggoals']))
-            if row['shg'] == 'x':
+            if row['shg'] == 'x' and row['hgoals'] == row['hthgoals'] and row['ggoals'] == row['htggoals']:
                 msg_list = msg_list + summary
-                TwitterMsg().sendDM(userids=userids, msg=msg_list)
+                TwitterMsg().senddm(userids=userids, msg=(row['match_id'], "SHG_list", msg_list))
 
-            if row['hgoals'] == '0' and row['ggoals'] == '0':
+            elif row['hgoals'] == '0' and row['ggoals'] == '0':
                 print('added game to msg_late00')
                 msg_late00 = msg_late00 + summary
-                TwitterMsg().sendDM(userids=userids, msg=msg_late00)
+                TwitterMsg().senddm(userids=userids, msg=(row['match_id'], "SHG", msg_late00))
     else:
-        print("no SHG candidates")
+        print("no SHG candidates \n")
 
 
 def findfhg():
 
-    livegames = allgamesdf[(allgamesdf['progress'] == 'live')]
-    latefhgames = livegames[(livegames['timer'].astype(int) > 30) & (livegames['timer'].astype(int) < 46)]
+    livefhgames = ''
+    livefhgames = allgamesdf[(allgamesdf['progress'] == 'live') & (allgamesdf['timer'].astype(int) < 46)]
+    print('\n{} live FH games found'.format(len(livefhgames)))
+
+    latefhgames = livefhgames[(livefhgames['timer'].astype(int) > 30)]
     fhg_watch = latefhgames[latefhgames['fhg'] == 'x']
 
     if not latefhgames.empty:
@@ -192,19 +204,19 @@ def findfhg():
 
         msg_list = '###### FHG from List Alert #######\n'
         msg_late00 = '###### FH still 0-0 Alert #######\n'
-        for index, row in fhg_watch.iterrows():
+        for index, row in latefhgames.iterrows():
             summary = 'Reached {}\' in {} - {} ({}) at {}-{}'.format(row['timer'],row['team_home'],row['team_away'],row['nation'],row['hgoals'],row['ggoals']) + '\n' + \
-                    'Check stats at https://www.flashscore.com/match/{}/#match-statistics;0'.format(row['match_id'])
+                    'Check stats at https://www.flashscore.com/match/{}/#match-statistics;0\n'.format(row['match_id'])
 
             print('Checking {} - {} ({}-{})'.format(row['team_home'],row['team_away'],row['hgoals'],row['ggoals']))
             if row['fhg'] == 'x':
                 msg_list = msg_list + summary
-                TwitterMsg().sendDM(userids=userids, msg=msg_list)
-            if row['fhg'] == '' and row['score'] == '0 - 0':
+                TwitterMsg().senddm(userids=userids, msg=(row['match_id'], "FHG_list", msg_list))
+            elif row['hgoals'] == '0' and row['ggoals'] == '0':
                 msg_late00 = msg_late00 + summary
-                TwitterMsg().sendDM(userids=userids, msg=msg_late00)
+                TwitterMsg().senddm(userids=userids, msg=(row['match_id'], "FHG", msg_late00))
     else:
-        print("no FHG candidates")
+        print("no FHG candidates \n")
 
 
 def matchsummary():
@@ -212,35 +224,77 @@ def matchsummary():
     games = pd.read_csv(path + 'allgames.csv')
 
 
-def dumpmatchsummary(match_ids):
-    driver = webdriver.Chrome()
-    driver.get('http://www.google.com/xhtml');
+def dumpmatchsummary():
+    import os
+
+    games = pd.read_csv(path + 'allgames.csv')
+
+    # open website
+    options = Options()
+    options.headless = True
+
+    driver = webdriver.Chrome(path + '/venv/bin/chromedriver', options=options)
+    driver.get('http://www.google.com/xhtml')
 
     time.sleep(1) # Let the user actually see something!
 
-    for match_id in match_ids:
-        print('opening site ...')
-        driver.get('https://www.flashscore.com/match/{}/#match-statistics;0'.format(match_id))
-        print('site open...')
+    for index, row in games.iterrows():
+        match_id = row['match_id']
 
-        table_main = driver.find_element_by_class_name('sport-soccer')
-        soup = BeautifulSoup(table_main.get_attribute('innerHTML'), "html.parser")
+        if row['progress'] == 'scheduled':
 
-        table = soup.prettify()
+            exists = os.path.isfile(path + '/matches/pmodds/{}.txt'.format(match_id))
 
-        f = open('{}.txt'.format(match_id), 'w', encoding='utf-8')
-        f.write(table)
-        f.close()
+            if not exists:
+                url = 'https://www.flashscore.com/match/{}/#odds-comparison;1x2-odds;full-time'.format(match_id)
+                print('getting {}'.format(url))
+
+                driver.get(url)
+                #wait = WebDriverWait(driver, 10)
+                time.sleep(1)
+
+                table = ''
+                try:
+                    table_main = driver.find_element_by_id('odds_1x2')
+                    soup = BeautifulSoup(table_main.get_attribute('innerHTML'), "html.parser")
+
+                    table = soup.prettify()
+                except:
+                    print('Cannot find odds_1x2 class in {}'.format(url))
+
+                f = open(path + 'matches/pmodds/{}.txt'.format(match_id), 'w', encoding='utf-8')
+                f.write(table)
+                f.close()
+            else:
+                print('file odds already exists {}'.format(match_id))
 
     driver.quit()
 
+def extractpmodds():
+    import os
 
-# userids = ['1208132010', '442751368']
+    directory = os.fsencode(path + '/matches/pmodds/')
+
+    for file in os.listdir(directory):
+        lines = open(directory + file).read().replace('\n', '')
+        soup = BeautifulSoup(lines, 'html.parser')
+        trs = soup.find_all('tr')
+        for tr in trs:
+            tds = tr.find_all('td')
+            for td in tds:
+                print(td.get_text())
+
+
+
+
+userids = ['1208132010', '442751368']
 userids = ['442751368']
-#scrapesite()
+scrapesite()
 extractlivescores()
 addwatchlistinfo()
 findlateshg()
 findfhg()
+dumpmatchsummary()
+#extractpmodds()
 
 # dumpmatchsummary(['6mfA2XzG','4t3Whcfb'])
