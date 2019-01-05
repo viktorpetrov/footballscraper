@@ -1,14 +1,158 @@
-team_home,team_away,fhg,shg
-NEROCA,Mohun Bagan,x,
-Melbourne Victory,Wellington Phoenix,x,x
-East Bengal,Real Kashmir,x,x
-Al-Fateh,Al-Nassr,x,x
-Al Ain,Bani Yas,x,x
-Express FC,Nyamityobora,x,
-Ashkelon,H. Nazareth,,x
-Hap. Ramat Gan,Hapoel Petah Tikva,,x
-Hapoel Bnei Lod,H. Akko,,x
-Al Wehda,Al Ahli SC,,x
-Zamalek,Petrojet,,x
-America RJ,Resende,,x
-Briton Ferry,Penybont,x,
+team_home,team_away,fhg,shg,fhg_perc,shg_perc
+Poole,Gosport,x,x,89.0,86.0
+WS Wanderers W,Melbourne Victory,x,x,88.0,72.0
+AEL,Pafos,x,x,88.0,88.0
+Arbroath,Brechin,x,x,88.0,81.0
+Queen's Park,Albion Rovers,x,,88.0,
+Al Wasl,Al Wahda,x,x,87.0,91.0
+Blyth,Alfreton,x,x,86.0,73.0
+Raith Rovers,Stenhousemuir,x,x,86.0,79.0
+Cowdenbeath,Berwick Rangers,x,x,86.0,81.0
+Cardiff MU,Bala,x,x,85.0,94.0
+Rushall,Redditch,x,x,85.0,76.0
+Stranraer,Montrose,x,x,85.0,77.0
+Taunton,Dorchester,x,x,84.0,75.0
+Staines,Walton Casuals,x,x,83.0,78.0
+Farnborough,Swindon S,x,x,82.0,82.0
+Bnei Sakhnin,Beitar Jerusalem,x,x,82.0,82.0
+Bishop's Stortford,Kingstonian,x,x,81.0,87.0
+Stratford,Alvechurch,x,x,81.0,72.0
+Chelmsford,Hampton & Richmond,x,,81.0,
+Dumbarton,Forfar Athletic,x,x,81.0,88.0
+Al Sharjah,Shabab Al Ahli Dubai,x,x,80.0,80.0
+Bastia,Concarneau,x,x,80.0,80.0
+Sheffield Wed,Luton,x,,80.0,
+Middlesbrough,Peterborough,x,x,80.0,80.0
+Burgess Hill,Folkestone,x,x,80.0,77.0
+Hartley Wintney,Basingstoke,x,x,80.0,87.0
+Batatais U20,Internacional U20,x,x,80.0,100.0
+Fjölnir,Leiknir Reykjavík,x,x,80.0,100.0
+Bani Yas,Al Jazira,x,x,79.0,89.0
+Adelaide United,Wellington Phoenix,x,x,79.0,83.0
+St. Albans,Oxford City,x,x,79.0,88.0
+AFC Telford,Spennymoor,x,x,79.0,84.0
+Porto II,Benfica II,x,x,79.0,79.0
+East Fife,Airdrieonians,x,x,79.0,88.0
+Ajman,Al Fujairah,x,x,78.0,89.0
+Macclesfield,Swindon,x,x,78.0,73.0
+Corinthian-Casuals,Harlow,x,x,78.0,81.0
+Kettering,Tamworth,x,x,78.0,88.0
+Southport,Nuneaton,x,x,78.0,73.0
+Amorebieta,Sporting Gijon II,x,x,78.0,86.0
+Doxa,APOEL,x,x,78.0,75.0
+Merthyr T,Salisbury,x,x,77.0,93.0
+Solihull Moors,Eastleigh,x,x,77.0,79.0
+Woking,Hemel Hempstead,x,x,77.0,77.0
+Guiseley,Leamington,x,x,77.0,84.0
+Paradou AC,MC Alger,x,x,77.0,70.0
+Kissamikos,Iraklis,x,,76.0,
+Druids,Barry Town United,x,x,76.0,71.0
+Crawley,Cheltenham,x,x,76.0,93.0
+Newport Co,Port Vale,x,x,76.0,72.0
+Enfield Town,Lewes,x,x,76.0,76.0
+Gainsborough,Nantwich,x,x,76.0,74.0
+Harrow,Met. Police FC,x,x,76.0,81.0
+Hendon,Kings Langley,x,x,76.0,91.0
+Wealdstone,Dartford,x,x,76.0,85.0
+Brackley,Ashton Utd,x,x,76.0,88.0
+University of Pretoria,Real Kings,x,x,75.0,75.0
+North Ferriby,Marine,x,x,75.0,75.0
+Weymouth,Tiverton,x,x,75.0,93.0
+UD Logroñés,Racing Santander,x,x,75.0,75.0
+Dibba Al Fujairah,Emirates,x,x,74.0,83.0
+Mineros de Zacatecas,Atlético San Luis,x,x,74.0,86.0
+Biggleswade Town,St. Ives,x,,74.0,
+Hungerford,Concord,x,x,74.0,83.0
+Welling,Truro,x,x,74.0,81.0
+Peterhead,Clyde,x,x,74.0,92.0
+Llanelli,Llandudno,x,x,73.0,81.0
+Carlisle,Mansfield,x,x,73.0,71.0
+Haringey,Whitehawk,x,x,73.0,77.0
+Bamber Bridge,Grantham Town,x,x,73.0,88.0
+Farsley,Warrington Town,x,x,73.0,73.0
+Leyton Orient,Salford,x,x,73.0,70.0
+Sutton,Harrogate Town,x,x,73.0,81.0
+Dundee Utd,Partick Thistle,x,x,73.0,85.0
+Bright Stars,Vipers,x,,72.0,
+Cambridge United,Stevenage,x,,72.0,
+Colchester,Notts Co,x,x,72.0,77.0
+Morecambe,Crewe,x,,72.0,
+Barnet,Aldershot,x,x,72.0,81.0
+Athletic Club II,Aurrerá de Vitoria,x,x,72.0,78.0
+Lancaster,Matlock,x,,71.0,
+Scarborough Athletic,Hednesford,x,x,71.0,85.0
+Chippenham,Eastbourne Boro,x,x,71.0,81.0
+Weston-super-Mare,Billericay,x,x,71.0,82.0
+Annan,Elgin City,x,x,71.0,91.0
+Morelia,Toluca,x,x,70.0,75.0
+Churchill Brothers,Minerva Punjab,x,x,70.0,78.0
+Margate,Worthing,x,x,70.0,79.0
+Merstham,Wingate & Finchley,x,x,70.0,90.0
+Hitchin,AFC Rushden & Diamonds,x,,70.0,
+Dagenham & Redbridge,Boreham Wood,x,x,70.0,78.0
+Gateshead,Maidenhead,x,x,70.0,74.0
+Torquay,Slough,x,x,70.0,96.0
+Stockport,Bradford PA,x,x,70.0,89.0
+FC United,Chester,x,x,70.0,79.0
+Leioa,Langreo,x,x,70.0,78.0
+Highlands Park,Orlando Pirates,x,x,70.0,70.0
+Halesowen,Coalville,,x,,95.0
+Chesham,Beaconsfield,,x,,94.0
+Boston Utd,Altrincham,,x,,94.0
+Scunthorpe,Coventry,,x,,92.0
+Hapoel Haifa,Hapoel Hadera,,x,,92.0
+Frome,Wimborne,,x,,91.0
+Hereford,Chorley,,x,,89.0
+Bognor Regis Town,Carshalton Athletic,,x,,86.0
+Lowestoft,Needham Market,,x,,86.0
+Deportivo Alavés,Valencia,,x,,86.0
+Caernarfon Town,Carmarthen Town,,x,,84.0
+Leatherhead,Potters Bar,,x,,84.0
+Curzon Ashton,York,,x,,83.0
+Atlante,Cimarrones de Sonora,,x,,82.0
+Aizawl,Arrows,,x,,82.0
+King's Lynn Town,Leiston,,x,,81.0
+Ayr United,Falkirk,,x,,81.0
+Al Ittihad Kalba,Al Dhafra,,x,,80.0
+Tours,Les Herbiers,,x,,80.0
+Manchester United,Reading,,x,,80.0
+Mickleover Sports,Stalybridge,,x,,80.0
+St. Neots,Royston,,x,,80.0
+Votuporanguense U20,Trem U20,,x,,80.0
+Marília U20,Babaçu U20,,x,,80.0
+Dulwich Hamlet,Bath,,x,,79.0
+East Thurrock,Gloucester,,x,,79.0
+Extremadura UD,Alcorcón,,x,,79.0
+Stafford Rangers,Workington,,x,,78.0
+Sporting Gijón,Real Zaragoza,,x,,78.0
+Anorthosis,Alki Oroklini,,x,,78.0
+Al-Ittihad FC,Zamalek,,x,,78.0
+Ferroviário,Uniclinic,,x,,78.0
+Huesca,Real Betis,,x,,78.0
+Puebla,Cruz Azul,,x,,77.0
+Afan Lido,Haverfordwest County,,x,,77.0
+Hartlepool United,Maidstone United,,x,,77.0
+Darlington,Kidderminster,,x,,77.0
+Ergotelis,Apollon Larissa,,x,,76.0
+Havant & W,Barrow,,x,,76.0
+SuperSport United,Cape Town City,,x,,76.0
+Conquense,Alcoyano,,x,,75.0
+Charlton Athletic,Sunderland,,x,,75.0
+Rochdale,Burton,,x,,75.0
+Witton,South Shields,,x,,75.0
+Halifax Town,Braintree,,x,,75.0
+Edinburgh City,Stirling Albion,,x,,75.0
+Yeovil Town,Bury,,x,,74.0
+Wrexham,Dover Athletic,,x,,74.0
+Dunfermline Athletic,Alloa,,x,,73.0
+Tampico Madero,Venados,,x,,72.0
+Sofapaka,Tusker,,x,,72.0
+Villarreal II,Badalona,,x,,72.0
+El Daklyeh,Ismaily,,x,,71.0
+Polokwane City,AmaZulu,,x,,71.0
+AFC Hornchurch,Dorking,,x,,71.0
+Chesterfield,Ebbsfleet,,x,,71.0
+Inverness CT,Queen of the South,,x,,71.0
+Maritimo,Portimonense,,x,,71.0
+Shmona,Hapoel Tel Aviv,,x,,70.0
+Free State Stars,Bidvest Wits,,x,,70.0
