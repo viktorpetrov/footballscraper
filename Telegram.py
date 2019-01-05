@@ -33,8 +33,7 @@ class Telegram:
 
     def send_message(self, chat_id, msg):
 
-
-        print('trying to send a Telegram')
+        print('trying to send a Telegram about {}'.format(msg[2]))
 
         resp= ''
         messages = pd.read_csv(path + 'messages.csv')
