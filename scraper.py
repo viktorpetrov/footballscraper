@@ -15,11 +15,231 @@ import pandas as pd
 
 import time
 import os
+import datetime
 
 from localsettings import *
 
 global allgamesdf
 global userids
+
+teamnames = {
+    'Al Ittifaq': 'Al-Ettifaq',
+    'Al Ittihad': 'Al-Ittihad FC',
+    'Hamilton Academical': 'Hamilton',
+    'Maccabi Netanya': 'Netanya',
+    'Ironi Kiryat Shmona': 'Shmona',
+    'Alloa Athletic': 'Alloa',
+    'Dundee United': 'Dundee Utd',
+    'Mansfield Town': 'Mansfield',
+    'Harlow Town': 'Harlow',
+    'Fleetwood Town': 'Fleetwood',
+    'MacaÃ©': 'Macae',
+    'Chelmsford City': 'Chelmsford',
+    'Ballymena United': 'Ballymena',
+    'Accrington Stanley': 'Accrington',
+    'Chesham United': 'Chesham',
+    'Notts County': 'Notts Co',
+    'West Bromwich Albion': 'West Brom',
+    'Taunton Town': 'Taunton',
+    'St Ives Town': 'St. Ives',
+    'Sutton United': 'Sutton',
+    'Exeter City': 'Exeter',
+    'Harrow Borough': 'Harrow',
+    'Dorking Wanderers': 'Dorking',
+    'Carlisle United': 'Carlisle',
+    'Warrenpoint Town': 'Warrenpoint',
+    'Swindon Supermarine': 'Swindon S',
+    'Gosport Borough': 'Gosport',
+    'Newport County': 'Newport Co',
+    'Leeds United': 'Leeds',
+    'Maidenhead United': 'Maidenhead',
+    'Torquay United': 'Torquay',
+    'Hungerford Town': 'Hungerford',
+    'AFC Telford United': 'AFC Telford',
+    'Halesowen Town': 'Halesowen',
+    'Oxford United': 'Oxford Utd',
+    'Stockport County': 'Stockport',
+    'Rushall Olympic': 'Rushall',
+    'Havant & Waterlooville': 'Havant & W',
+    'Ebbsfleet United': 'Ebbsfleet',
+    'Dungannon Swifts': 'Dungannon',
+    'Potters Bar Town': 'Potters Bar',
+    'Scunthorpe United': 'Scunthorpe',
+    'Brackley Town': 'Brackley',
+    'Hapoel Raanana': 'H. Raanana',
+    'Tottenham Hotspur': 'Tottenham',
+    'Poole Town': 'Poole',
+    'East Thurrock United': 'East Thurrock',
+    'Haringey Borough (9)': 'Haringey',
+    'Brightlingsea Regent': 'Brightlingsea',
+    'Cheltenham Town': 'Cheltenham',
+    'Frome Town': 'Frome',
+    'Queens Park Rangers': 'Queen\'s Park',
+    'Hapoel Beer Sheva': 'H. Beer Sheva',
+    'Chippenham Town': 'Chippenham',
+    'Swansea City': 'Swansea',
+    'Burton Albion': 'Burton',
+    'St Albans City': 'St. Albans',
+    'United of Manchester': 'FC United',
+    'Boston United': 'Boston Utd',
+    'Merthyr Town': 'Merthyr T',
+    'Merstham (16)': 'Merstham',
+    'Slough Town': 'Slough',
+    'Spennymoor Town': 'Spennymoor',
+    'Truro City': 'Truro',
+    'Newry City AFC': 'Newry City',
+    'Dundee Utd.': 'Dundee Utd.',
+    'Annan Athletic': 'Annan',
+    'Bradford Park Avenue': 'Bradford PA',
+    'Wycombe Wanderers': 'Wycombe',
+    'Lowestoft Town': 'Lowestoft',
+    'Basingstoke Town': 'Basingstoke',
+    'Tiverton Town': 'Tiverton',
+    'Wigan Athletic': 'Wigan',
+    'Rotherham United': 'Rotherham',
+    'Brechin City': 'Brechin',
+    'Braintree Town': 'Braintree',
+    'Newcastle United': 'Newcastle',
+    'Swindon Town': 'Swindon',
+    'Sheffield Wednesday': 'Sheffield Wed',
+    'Doncaster Rovers': 'Doncaster',
+    'Gloucester City': 'Gloucester',
+    'Redditch United': 'Redditch',
+    'Staines Town': 'Staines',
+    'Plymouth Argyle': 'Plymouth',
+    'Crawley Town': 'Crawley',
+    'Macclesfield Town': 'Macclesfield',
+    'Coalville Town': 'Coalville',
+    'Banbury United': 'Banbury',
+    'Shrewsbury Town': 'Shrewsbury',
+    'Metropolitan Police FC': 'Met. Police FC',
+    'Hull City': 'Hull',
+    'Billericay Town': 'Billericay',
+    'Nuneaton Town': 'Nuneaton',
+    'Forest Green Rovers': 'Forest Green',
+    'Sporting CP': 'Sporting',
+    'Peterborough United': 'Peterborough',
+    'Ashton United': 'Ashton Utd',
+    'Aldershot Town': 'Aldershot',
+    'St Neots Town': 'St. Neots',
+    'Kidderminster Harriers': 'Kidderminster',
+    'Salford City': 'Salford',
+    'Ashdod': 'Moadon Sport Ashdod',
+    'Hemel Hempstead Town': 'Hemel Hempstead',
+    'Nova Iguacu': 'Nova Iguacu',
+    'Grimsby Town': 'Grimsby',
+    'Royston Town': 'Royston',
+    'Alfreton Town': 'Alfreton',
+    'Al Raed': 'Al-Raed',
+    'ES Metlaoui': 'Metlaoui',
+    'Kirinya Jinja SS': 'Jinja',
+    'Man Utd': 'Manchester Utd',
+    'Ohod Madinah': 'Ohod',
+    'Uganda Police FC': 'Police',
+    'Hapoel Ramat HaSharon': 'Ramat Hasharon',
+    'Beitar Tel Aviv Ramla': 'Beitar Tel Aviv',
+    'York City': 'York',
+    'Crewe Alexandra': 'Crewe',
+    'Lancaster City': 'Lancaster',
+    'Stalybridge Celtic': 'Stalybridge',
+    'Leicester City': 'Leicester',
+    'Witton Albion': 'Witton',
+    'Haringey Borough': 'Haringey',
+    'Eastbourne Borough': 'Eastbourne Boro',
+    'Gainsborough Trinity': 'Gainsborough',
+    'Norwich City': 'Norwich',
+    'Cardiff City': 'Cardiff',
+    'North Ferriby United': 'North Ferriby',
+    'Luton Town': 'Luton',
+    'Nantwich Town': 'Nantwich',
+    'Dorchester Town': 'Dorchester',
+    'Hednesford Town': 'Hednesford',
+    'Bala Town': 'Bala',
+    'Cefn Druids': 'Druids',
+    'Welling United': 'Welling',
+    'Oldham Athletic': 'Oldham',
+    'Kettering Town': 'Kettering',
+    'Blyth Spartans': 'Blyth',
+    'Derby County': 'Derby',
+    'Western Sydney Wanderers': 'WS Wanderers W',
+    'Hitchin Town': 'Hitchin',
+    'Fylde': 'AFC Fylde',
+    'Concord Rangers': 'Concord',
+    'Farsley Celtic': 'Farsley',
+    'Folkestone Invicta': 'Folkestone',
+    'Southend United': 'Southend',
+    'Sheffield United': 'Sheffield Utd',
+    'Burgess Hill Town': 'Burgess Hill',
+    'Stratford Town': 'Stratford',
+    'Matlock Town': 'Matlock',
+    'Bath City': 'Bath',
+    'Colchester United': 'Colchester',
+    'Preston North End': 'Preston',
+    'Stoke City': 'Stoke',
+    'Nottingham Forest': 'Nottingham',
+    'Birmingham City': 'Birmingham',
+    'Coventry City': 'Coventry',
+    'Wimborne Town': 'Wimborne',
+    'Llanelli Town': 'Llanelli',
+    'King\'s Lynn Town': 'King\'s Lynn Town',
+    'Blackburn Rovers': 'Blackburn',
+    'Northampton Town': 'Northampton',
+    'Newcastle': 'Newcastle United',
+    'Beaconsfield Town': 'Beaconsfield',
+    'Chemelil': 'Chemelil',
+    'Sporting Braga': 'Sporting Braga',
+    'Estoril': 'Estoril Praia',
+    'Nacional': 'Nacional de Madeira',
+    'Nzoia United': 'Nzoia Sugar',
+    'Vitória Guimarães II': 'Vitória Guimarães II',
+    'Marítimo': 'Maritimo',
+    'Newcastle Jets': 'Newcastle Jets',
+    'Vitória Setúbal': 'Vitoria Setubal',
+    'RSB Berkane': 'RS Berkane',
+    'Paphos': 'Pafos',
+    'Vitória Guimarães': 'Vitória Guimarães',
+    'Sporting Covilhã': 'Sporting Covilhã',
+    'Met. Police FC': 'Met. Police FC',
+    'Sporting Braga II': 'Sporting Braga II',
+    'Homeboyz': 'Kakamega Homeboyz',
+    'Raja Casablanca': 'Raja Casablanca Athletic',
+    'SoNy Sugar': 'Sony Sugar',
+    'AFC Bournemouth': 'Bournemouth',
+    'KCB': 'KCB',
+    'Famalicão': 'Famalicao',
+    'WS Wanderers U21': 'Western Sydney Wanderers U21',
+    'São Carlos U20': 'Sao Carlos Sp U20',
+    'Criciuma U20': 'Criciúma U20',
+    'Desportivo Aves': 'CD Aves',
+    'Mirassol U20': 'Mirassol Futebol Clube U20',
+    'Ríver U20': 'River-PI U20',
+    'Confiança U20': 'Confianca U20',
+    'El Gounah': 'El Gouna',
+    'Flamengo RJ U20': 'Flamengo RJ U20',
+    'Boavista U20': 'Boavista RJ U20',
+    'Moreirense': 'Moreirense',
+    'Rio Ave': 'Rio Ave',
+    'Goias U20': 'Goias U20',
+    'São Bento U20': 'São Bento U20',
+    'Flamengo RJ U20': 'Flamengo RJ U20',
+    'Ricanato U20': 'Ricanato U20',
+    'Shillong Lajong': 'Lajong',
+    'Hapoel Iksal': 'Hapoel Iksal Amad',
+    'Chennai City': 'Chennai City',
+    'Connah\'s Quay': 'Connahs Quay',
+    'TNS': 'TNS',
+    'Newcastle Utd U23': 'Newcastle United U23',
+    'Chippa United': 'Chippa United',
+    'Leganés': 'Leganes',
+    'Al Ahly': 'Al Ahly Cairo',
+    'Bloemfontein Celtic': 'Bloemfontein Celtic',
+    'Pyramids FC': 'Pyramids',
+    'Sektzia Nes Tziona': 'Sectzya Nes Ziona',
+    'Hapoel Kfar-Saba': 'Hapoel Kfar Saba',
+    'Gokulam': 'Gokulam',
+    'The New Saints': 'New Saints',
+    'CA Bordj Bou Arreridj': 'Bordj Bou Arreridj'
+}
 
 
 def scrapesite():
@@ -45,6 +265,105 @@ def scrapesite():
     f.close()
 
     driver.quit()
+
+
+def scrape777sport():
+
+    # open website
+    options = Options()
+    #options.headless = True
+
+    driver = webdriver.Chrome(chromedriver_path, options=options)
+
+    time.sleep(1)  # Let the user actually see something!
+
+    driver.get("https://777score.com")
+
+    table_main = driver.find_element_by_class_name('main-table')
+    soup = BeautifulSoup(table_main.get_attribute('innerHTML'), "html.parser")
+
+    table = soup.prettify()
+
+    f = open('html777sport.txt', 'w', encoding='utf-8')
+    f.write(table)
+    f.close()
+
+    driver.quit()
+
+
+def extractlivescores777():
+
+    global allgamesdf
+
+    f = open('html777sport.txt', 'r', encoding='utf-8')
+    lines = f.read().replace('\n', '')
+
+    soup = BeautifulSoup(lines, 'html.parser')
+
+    cols = ['progress', 'timer', 'time_of_match', 'team_home', 'team_away', 'score', 'hgoals', 'ggoals', 'hthgoals', 'htggoals', 'match_id',
+            '777url']
+    allgamesdf = pd.DataFrame(columns=cols)
+
+    for span in soup.findAll("span", {"class": 'row'}):
+
+        links = span.findAll('a', href=True)
+        for link in links:
+            l = link['href']
+            #print(link['href'])
+            gamesrow = []
+            status = link.find("span", {"class": lambda x: x and "status" in x.split()})
+            #print(status)
+            timer = status.text.replace('\'','').replace('+','').strip()
+
+            progress = ''
+            if timer == 'Finished':
+                progress = 'finished'
+            elif timer == '':
+                progress = 'scheduled'
+            else: progress = 'live'
+
+            gamesrow.append(progress)
+
+            if timer in ['Halftime', '45+', 'Finished', 'Postponed','']:
+                timer = 0
+            gamesrow.append(timer)
+
+            kick_off = link.find("span", {"class": 'date-time'})
+            gamesrow.append(kick_off.text.strip())
+
+            spans = link.findAll("span", {"class": 'team'})
+
+            for c,v in enumerate(spans):
+                gamesrow.append(v.find("span").text.strip())
+            #print(teams)
+
+            lives = link.findAll("span", {"class": lambda x: x and "score" in x.split()})
+            #print(lives)
+            for live in lives:
+                scorespans = live.findAll("span")
+                #print(live)
+                hgoals = scorespans[0].text.strip().replace('-','')
+                ggoals = scorespans[2].text.strip().replace('-','')
+                if hgoals != '': score = (hgoals + ' - ' + ggoals)
+                else: score = ''
+
+                gamesrow.append(score)
+                gamesrow.append(hgoals)
+                gamesrow.append(ggoals)
+                gamesrow.append('')
+                gamesrow.append('')
+
+        match_id = l.split('-')[-1]
+        gamesrow.append(match_id)
+        gamesrow.append(l)
+        #print(gamesrow)
+
+        allgamesdf = allgamesdf.append(pd.DataFrame([gamesrow], columns=cols), ignore_index=True)
+
+        #print('\n' )
+
+    allgamesdf.sort_values('time_of_match', inplace=True)
+    allgamesdf.to_csv(path + 'allgames.csv', index=False)
 
 
 def extractlivescores():
@@ -147,202 +466,54 @@ def extractlivescores():
 
 def addwatchlistinfo():
 
-    teamnames = {
-        'Al Ittifaq': 'Al-Ettifaq',
-        'Al Ittihad': 'Al-Ittihad FC',
-        'Hamilton Academical': 'Hamilton',
-        'Maccabi Netanya': 'Netanya',
-        'Ironi Kiryat Shmona': 'Shmona',
-        'Alloa Athletic': 'Alloa',
-        'Dundee United': 'Dundee Utd',
-        'Mansfield Town': 'Mansfield',
-        'Harlow Town': 'Harlow',
-        'Fleetwood Town': 'Fleetwood',
-        'MacaÃ©': 'Macae',
-        'Chelmsford City': 'Chelmsford',
-        'Ballymena United': 'Ballymena',
-        'Accrington Stanley': 'Accrington',
-        'Chesham United': 'Chesham',
-        'Notts County': 'Notts Co',
-        'West Bromwich Albion': 'West Brom',
-        'Taunton Town': 'Taunton',
-        'St Ives Town': 'St. Ives',
-        'Sutton United': 'Sutton',
-        'Exeter City': 'Exeter',
-        'Harrow Borough': 'Harrow',
-        'Dorking Wanderers': 'Dorking',
-        'Carlisle United': 'Carlisle',
-        'Warrenpoint Town': 'Warrenpoint',
-        'Swindon Supermarine': 'Swindon S',
-        'Gosport Borough': 'Gosport',
-        'Newport County': 'Newport Co',
-        'Leeds United': 'Leeds',
-        'Maidenhead United': 'Maidenhead',
-        'Torquay United': 'Torquay',
-        'Hungerford Town': 'Hungerford',
-        'Brighton & Hove Albion': 'Brighton',
-        'AFC Telford United': 'AFC Telford',
-        'Halesowen Town': 'Halesowen',
-        'Oxford United': 'Oxford Utd',
-        'Stockport County': 'Stockport',
-        'Rushall Olympic': 'Rushall',
-        'Havant & Waterlooville': 'Havant & W',
-        'Ebbsfleet United': 'Ebbsfleet',
-        'Dungannon Swifts': 'Dungannon',
-        'Potters Bar Town': 'Potters Bar',
-        'Scunthorpe United': 'Scunthorpe',
-        'Brackley Town': 'Brackley',
-        'Hapoel Raanana': 'H. Raanana',
-        'Tottenham Hotspur': 'Tottenham',
-        'Poole Town': 'Poole',
-        'East Thurrock United': 'East Thurrock',
-        'Haringey Borough (9)': 'Haringey',
-        'Brightlingsea Regent': 'Brightlingsea',
-        'Sydney': 'Sydney FC',
-        'Cheltenham Town': 'Cheltenham',
-        'Frome Town': 'Frome',
-        'Queens Park Rangers': 'Queen\'s Park',
-        'Hapoel Beer Sheva' : 'H. Beer Sheva',
-        'Chippenham Town': 'Chippenham',
-        'Swansea City': 'Swansea',
-        'Burton Albion': 'Burton',
-        'St Albans City': 'St. Albans',
-        'United of Manchester': 'FC United',
-        'Boston United': 'Boston Utd',
-        'Merthyr Town' : 'Merthyr T',
-        'Merstham (16)' : 'Merstham',
-        'Slough Town' : 'Slough',
-        'Spennymoor Town' : 'Spennymoor',
-        'Truro City' : 'Truro',
-        'Newry City AFC' : 'Newry City',
-        'Huddersfield Town' : 'Huddersfield',
-        'Dundee Utd.' : 'Dundee Utd.',
-        'Annan Athletic' : 'Annan',
-        'Bradford Park Avenue' : 'Bradford PA',
-        'Wycombe Wanderers' : 'Wycombe',
-        'Lowestoft Town' : 'Lowestoft',
-        'Basingstoke Town' : 'Basingstoke',
-        'Tiverton Town' : 'Tiverton',
-        'Wigan Athletic' : 'Wigan',
-        'Rotherham United' : 'Rotherham',
-        'Brechin City' : 'Brechin',
-        'Braintree Town' : 'Braintree',
-        'Newcastle United' : 'Newcastle',
-        'Swindon Town' : 'Swindon',
-        'Sheffield Wednesday' : 'Sheffield Wed',
-        'Doncaster Rovers' : 'Doncaster',
-        'Gloucester City' : 'Gloucester',
-        'Redditch United' : 'Redditch',
-        'Staines Town' : 'Staines',
-        'Plymouth Argyle' : 'Plymouth',
-        'Crawley Town' : 'Crawley',
-        'Macclesfield Town' : 'Macclesfield',
-        'Coalville Town' : 'Coalville',
-        'Banbury United' : 'Banbury',
-        'Shrewsbury Town' : 'Shrewsbury',
-        'Metropolitan Police FC' : 'Met. Police FC',
-        'Hull City' : 'Hull',
-        'Wolverhampton Wanderers' : 'Wolves',
-        'Billericay Town' : 'Billericay',
-        'Nuneaton Town' : 'Nuneaton',
-        'Forest Green Rovers' : 'Forest Green',
-        'Sporting CP' : 'Sporting',
-        'Peterborough United' : 'Peterborough',
-        'Ashton United' :  'Ashton Utd',
-        'Aldershot Town' : 'Aldershot',
-        'St Neots Town' : 'St. Neots',
-        'Kidderminster Harriers' : 'Kidderminster',
-        'Salford City' : 'Salford',
-        'Ashdod' : 'Moadon Sport Ashdod',
-        'Hemel Hempstead Town' : 'Hemel Hempstead',
-        'Nova Iguacu': 'Nova Iguacu',
-        'Grimsby Town': 'Grimsby',
-        'Royston Town': 'Royston',
-        'Alfreton Town': 'Alfreton',
-        'Al Raed': 'Al-Raed',
-        'ES Metlaoui': 'Metlaoui',
-        'Kirinya Jinja SS': 'Jinja',
-        'Man Utd': 'Manchester Utd',
-        'Ohod Madinah': 'Ohod',
-        'Uganda Police FC': 'Police',
-        'Hapoel Ramat HaSharon': 'Ramat Hasharon',
-        'Hapoel Marmorek': 'H. Marmorek',
-        'Beitar Tel Aviv Ramla': 'Beitar Tel Aviv',
-        'Hapoel Kfar Saba': 'Hapoel Kfar-Saba',
-        'Tranmere Rovers': 'Tranmere',
-        'York City': 'York',
-        'Crewe Alexandra': 'Crewe',
-        'Lancaster City': 'Lancaster',
-        'The New Saints': 'TNS',
-        'Stalybridge Celtic': 'Stalybridge',
-        'Leicester City': 'Leicester',
-        'Witton Albion': 'Witton',
-        'Haringey Borough': 'Haringey',
-        'Eastbourne Borough': 'Eastbourne Boro',
-        'Gainsborough Trinity': 'Gainsborough',
-        'Norwich City': 'Norwich',
-        'Cardiff City': 'Cardiff',
-        'North Ferriby United': 'North Ferriby',
-        'Luton Town': 'Luton',
-        'Nantwich Town': 'Nantwich',
-        'Dorchester Town': 'Dorchester',
-        'Hednesford Town': 'Hednesford',
-        'Bala Town': 'Bala',
-        'Cefn Druids': 'Druids',
-        'Welling United': 'Welling',
-        'Oldham Athletic': 'Oldham',
-        'Kettering Town': 'Kettering',
-        'Blyth Spartans': 'Blyth',
-        'Derby County': 'Derby',
-        'Western Sydney Wanderers': 'WS Wanderers W',
-        'Hitchin Town': 'Hitchin',
-        'Fylde': 'AFC Fylde',
-        'Concord Rangers': 'Concord',
-        'Farsley Celtic': 'Farsley',
-        'Folkestone Invicta': 'Folkestone',
-        'Southend United': 'Southend',
-        'Sheffield United': 'Sheffield Utd',
-        'Burgess Hill Town': 'Burgess Hill',
-        'Stratford Town': 'Stratford',
-        'Matlock Town': 'Matlock',
-        'Bath City': 'Bath',
-        'Colchester United': 'Colchester',
-        'Preston North End': 'Preston',
-        'Stoke City': 'Stoke',
-        'Nottingham Forest': 'Nottingham',
-        'Birmingham City': 'Birmingham',
-        'Coventry City': 'Coventry',
-        'Wimborne Town': 'Wimborne',
-        'Llanelli Town': 'Llanelli',
-        'King\'s Lynn Town': 'King\'s Lynn Town',
-        'Blackburn Rovers': 'Blackburn',
-        'Northampton Town': 'Northampton'
-    }
+    today = datetime.datetime.now().strftime('%Y-%m-%d')
 
     global allgamesdf
 
     values = {'fhg': '', 'shg': ''}
     try:
         watchlistfhg = pd.read_csv(path + 'watchlistfhg.csv')
-        watchlistfhg['Fixture'] = watchlistfhg['Fixture'].str.replace(r'\([^)]*\)', '').str.strip()
-    except:
-        c = ['Fixture','Competition','Kick Off','shg','perc_shg']
+        watchlistfhg.rename(str.lower, axis='columns', inplace=True)
+
+        watchlistfhg['kick off'] = pd.to_datetime(watchlistfhg['kick off']).dt.date
+
+        watchlistfhg = watchlistfhg[watchlistfhg['kick off'] == datetime.datetime.today().date()]
+
+        watchlistfhg.rename(index=str, columns={'fhg' : 'fhg_perc'}, inplace=True)
+        watchlistfhg['fhg'] = 'x'
+        watchlistfhg['fixture'] = watchlistfhg['fixture'].str.replace(r'\([^)]*\)', '').str.strip()
+    except Exception as e:
+        print(e)
+        print('watchlistfhg.csv not correct')
+        c = ['fixture','competition','kick off','shg','shg_perc']
         watchlistfhg = pd.DataFrame(columns=c)
 
     try:
         watchlistshg = pd.read_csv(path + 'watchlistshg.csv')
-        watchlistshg['Fixture'] = watchlistshg['Fixture'].str.replace(r'\([^)]*\)', '').str.strip()
-    except:
-        c = ['Fixture','Competition','Kick Off','shg','perc_shg']
+        watchlistshg.rename(str.lower, axis='columns', inplace=True)
+        watchlistshg.rename(index=str, columns={'shg' : 'shg_perc'}, inplace=True)
+
+        watchlistshg['kick off'] = pd.to_datetime(watchlistshg['kick off']).dt.date
+
+        watchlistshg = watchlistshg[watchlistshg['kick off'] == datetime.datetime.today().date()]
+
+        watchlistshg.rename(index=str, columns={'shg' : 'shg_perc'}, inplace=True)
+        watchlistshg['shg'] = 'x'
+        watchlistshg['fixture'] = watchlistshg['fixture'].str.replace(r'\([^)]*\)', '').str.strip()
+
+    except Exception as e:
+        print(e)
+        print('watchlistshg.csv not correct')
+        c = ['fixture','competition','kick off','shg','shg_perc']
         watchlistshg = pd.DataFrame(columns=c)
 
-    watchlist = watchlistfhg.merge(watchlistshg, how='outer', on=['Fixture', 'Competition'])
+    watchlist = watchlistfhg.merge(watchlistshg, how='outer', on=['fixture', 'competition'])
 
-    watchlist['team_home'], watchlist['team_away'] = watchlist['Fixture'].str.split(' vs. ', 1).str
+    watchlist['team_home'], watchlist['team_away'] = watchlist['fixture'].str.split(' vs. ', 1).str
     watchlist['team_home'] = watchlist['team_home'].str.strip().replace(teamnames)
     watchlist['team_away'] = watchlist['team_away'].str.strip().replace(teamnames)
 
-    watchlist = watchlist[["team_home","team_away","fhg","shg","perc_fhg","perc_shg"]].fillna(value= values)
+    watchlist = watchlist[["team_home","team_away","fhg","shg","fhg_perc","shg_perc"]].fillna(value= values)
     watchlist.to_csv(path + 'watchlistnew.csv', index=False)
 
     # find non-matched games
@@ -362,7 +533,7 @@ def addwatchlistinfo():
     pmodds = pd.read_csv(path + 'matches/pmodds/pmodds.csv')
 
     allgamesdf = allgamesdf.merge(oddsportalurls, on='match_id', how='left')
-    allgamesdf = allgamesdf.merge(pmodds, on='match_id', how='left')
+    allgamesdf = allgamesdf.merge(pmodds, on=['team_home','team_away'], how='left')
 
     allgamesdf.to_csv(path + 'allgames.csv', index=False)
 
@@ -378,8 +549,8 @@ def addflagsandfields():
     allgamesdf["pmodd1"] = pd.to_numeric(allgamesdf.pmodd1, errors='coerce').astype(float)
     allgamesdf["pmodd2"] = pd.to_numeric(allgamesdf.pmodd2, errors='coerce').astype(float)
 
-    allgamesdf.loc[(allgamesdf['pmodd1'] < 2.1) & (1.5 < allgamesdf['pmodd1']),'fav_home'] = 'x'
-    allgamesdf.loc[(allgamesdf['pmodd2'] < 2.1) & (1.5 < allgamesdf['pmodd2']),'fav_away'] = 'x'
+    allgamesdf.loc[(allgamesdf['pmodd1'] < 2.4) & (1.5 < allgamesdf['pmodd1']),'fav_home'] = 'x'
+    allgamesdf.loc[(allgamesdf['pmodd2'] < 2.4) & (1.5 < allgamesdf['pmodd2']),'fav_away'] = 'x'
 
     allgamesdf.to_csv(path + 'allgames.csv', index=False)
 
@@ -398,8 +569,8 @@ def findlateshg():
         msg_late00_title = '###### SH 0-0 Alert #######\n'
 
         for index, row in lategames.iterrows():
-            summary = 'Reached {}\' in {} - {} ({}) at {}-{}'.format(row['timer'],row['team_home'],row['team_away'],row['nation'],row['hgoals'],row['ggoals']) + '\n' + \
-                    'Check stats at https://www.flashscore.com/match/{}/#match-statistics;0\n'.format(row['match_id'])
+            summary = 'Reached {}\' in {} - {} at {}-{}'.format(row['timer'],row['team_home'],row['team_away'],row['hgoals'],row['ggoals']) + '\n' + \
+                    'Check stats at https://777score.com/{}\n'.format(row['777url'])
 
             print('{}\' {}-{} ({}-{}) {} - {}  '.format(row['timer'],row['hgoals'],row['ggoals'],row['hthgoals'],row['htggoals'],row['team_home'],row['team_away']))
 
@@ -410,9 +581,8 @@ def findlateshg():
 
             elif row['hgoals'] == '0' and row['ggoals'] == '0':
                 msg_late00 = msg_late00_title + summary
-                TwitterMsg().senddm(userids=userids, msg=(row['match_id'], "SHG", msg_late00))
-                #Telegram().send_message(chat_id=telegram_chat_id,
-                #                        msg=(row['match_id'], "SHG", msg_late00))
+                #TwitterMsg().senddm(userids=userids, msg=(row['match_id'], "SHG", msg_late00))
+                Telegram().send_message(chat_id=-1001403993640, msg=(row['match_id'], "SHG", msg_late00))
     else:
         print("no SHG candidates \n")
 
@@ -430,12 +600,12 @@ def findfhg():
         print('#           Late FHG              #')
         print('###################################')
 
-        msg_list_title = '###### FHG from List Alert #######\n'
-        msg_late00_title = '###### FH still 0-0 Alert #######\n'
+        msg_list_title = '# FHG from List Alert #\n'
+        msg_late00_title = '# FH still 0-0 Alert #\n'
 
         for index, row in latefhgames.iterrows():
-            summary = 'Reached {}\' in {} - {} ({}) at {}-{}'.format(row['timer'],row['team_home'],row['team_away'],row['nation'],row['hgoals'],row['ggoals']) + '\n' + \
-                    'Check stats at https://www.flashscore.com/match/{}/#match-statistics;0\n'.format(row['match_id'])
+            summary = 'Reached {}\' in {} - {} at {}-{}'.format(row['timer'],row['team_home'],row['team_away'],row['hgoals'],row['ggoals']) + '\n' + \
+                    'Check stats at https://777score.com/{}\n'.format(row['777url'])
 
             print('{}\' {}-{} {} - {}  '.format(row['timer'],row['hgoals'],row['ggoals'],row['team_home'],row['team_away']))
 
@@ -462,28 +632,28 @@ def findfavoritesbeforeht():
     livefhgames = allgamesdf[(allgamesdf['progress'] == 'live')]
     print('\n{} live FH games found'.format(len(livefhgames)))
 
-    msg_title = '###### Favorites fell behind  #######\n'
+    msg_title = '# Favorites fell behind  #\n'
 
     for index, row in livefhgames.iterrows():
 
-        summary = 'Reached {}\' in {} - {} ({}) at {}-{}'.format(row['timer'], row['team_home'], row['team_away'],
-                                                                 row['nation'], row['hgoals'], row['ggoals']) + '\n' + \
-                  'Check stats at https://www.flashscore.com/match/{}/#match-statistics;0\n'.format(row['match_id'])
+        summary = 'Reached {}\' in {} - {} at {}-{}'.format(row['timer'], row['team_home'], row['team_away'],
+                                                                 row['hgoals'], row['ggoals']) + '\n' + \
+                  'Check stats at https://777score.com/{}\n'.format(row['777url'])
 
         if (row['fav_home'] == 'x' and row['hgoals'] < row['ggoals']) or (row['fav_away'] == 'x' and row['hgoals'] > row['ggoals']):
-            msg_favbefht = msg_title + summary
+            msg_favbefht = msg_title + summary + '\nodds: {} - {}'.format(row['pmodd1'],row['pmodd2'])
             Telegram().send_message(chat_id=-1001403993640, msg=(row['match_id'], "FHG", msg_favbefht))
 
-    msg_title = '###### Favorites not ahead before HT #######\n'
+    msg_title = '# Favorites not ahead before HT #\n'
 
     for index, row in livefhgames.iterrows():
 
-        summary = 'Reached {}\' in {} - {} ({}) at {}-{}'.format(row['timer'], row['team_home'], row['team_away'],
-                                                                 row['nation'], row['hgoals'], row['ggoals']) + '\n' + \
-                  'Check stats at https://www.flashscore.com/match/{}/#match-statistics;0\n'.format(row['match_id'])
+        summary = 'Reached {}\' in {} - {} at {}-{}'.format(row['timer'], row['team_home'], row['team_away'],
+                                                                 row['hgoals'], row['ggoals']) + '\n' + \
+                  'Check stats at https://777score.com/{}\n'.format(row['777url'])
 
         if (30 < int(row['timer']) < 46) and ((row['fav_home'] == 'x' and row['hgoals'] <= row['ggoals']) or (row['fav_away'] == 'x' and row['hgoals'] >= row['ggoals'])):
-            msg_favnotaheadbfht = msg_title + summary
+            msg_favnotaheadbfht = msg_title + summary + '\nodds: {} - {}'.format(row['pmodd1'],row['pmodd2'])
             Telegram().send_message(chat_id=-1001403993640, msg=(row['match_id'], "FHG", msg_favnotaheadbfht))
 
 
@@ -493,7 +663,7 @@ def dumpmatchsummary():
 
     # open website
     options = Options()
-    options.headless = True
+    #options.headless = True
 
     driver = webdriver.Chrome(chromedriver_path, options=options)
 
@@ -501,49 +671,81 @@ def dumpmatchsummary():
 
     for index, row in games.iterrows():
         match_id = row['match_id']
+        urlmatch = row['777url']
 
-        if row['progress'] == 'scheduled':
+        if row['progress'] == 'live':
 
-            exists = os.path.isfile(path + '/matches/pmodds/{}.txt'.format(match_id))
+            exists = os.path.isfile(path + '/matches/pmodds/html/{}.txt'.format(match_id))
 
             if not exists:
-                url = 'https://www.flashscore.com/match/{}/#odds-comparison;1x2-odds;full-time'.format(match_id)
+                url = 'https://777score.com/{}'.format(urlmatch)
                 print('getting {}'.format(url))
 
                 driver.get(url)
-                #wait = WebDriverWait(driver, 10)
-                time.sleep(1)
 
-                table = ''
+                wait = WebDriverWait(driver, 5)
+                f = open(path + 'matches/pmodds/html/{}.txt'.format(match_id), 'w', encoding='utf-8')
+
                 try:
-                    table_main = driver.find_element_by_id('odds_1x2')
-                    soup = BeautifulSoup(table_main.get_attribute('innerHTML'), "html.parser")
+                    driver.find_element_by_class_name('button').click()
 
-                    table = soup.prettify()
-                except:
-                    print('Cannot find odds_1x2 class in {}'.format(url))
+                    table = ''
+                    try:
+                        table_main = driver.find_element_by_class_name('statistics')
+                        soup = BeautifulSoup(table_main.get_attribute('innerHTML'), "html.parser")
 
-                f = open(path + 'matches/pmodds/{}.txt'.format(match_id), 'w', encoding='utf-8')
-                f.write(table)
+                        table = soup.prettify()
+                        f.write(table)
+
+                    except:
+                        print('Cannot find odds_1x2 class in {}'.format(url))
+
+
+                except Exception as e:
+                    print(e)
+
                 f.close()
+
             else:
-                print('file odds already exists {}'.format(match_id))
+                #print('file odds already exists {}'.format(match_id))
+                pass
 
     driver.quit()
 
 
-def extractpmodds():
+def extractstatsfrommatchfiles():
+    import re
+    import json
 
-    directory = os.fsencode(path + '/matches/pmodds/')
+    directory = os.fsencode(path + 'matches/pmodds/html/')
 
     for file in os.listdir(directory):
+        match_id = str.replace(str(file, 'utf-8'), '.txt', '')
+
         lines = open(directory + file).read().replace('\n', '')
         soup = BeautifulSoup(lines, 'html.parser')
-        trs = soup.find_all('tr')
-        for tr in trs:
-            tds = tr.find_all('td')
-            for td in tds:
-                print(td.get_text())
+        divs = soup.findAll("div", {"class": 'bar'})
+
+        d = dict()
+        d['match_id'] = match_id
+
+        for bar in divs:
+            #print(bar.text)
+            infos = bar.findAll("div", {"class": 'info'})
+            for info in infos:
+                spans = info.findAll("span")
+                #print('found {} spans'.format(len(spans)))
+                #for span in spans:
+                home_value, metric_raw, away_value = spans
+                metric = re.sub(' +', ' ', metric_raw.text.strip())
+                d[metric] = {'home':re.sub(' +', ' ', home_value.text.replace('%','').strip()),
+                             'away':re.sub(' +', ' ', away_value.text.replace('%','').strip())}
+
+                #print(re.sub(' +', ' ', home_value.text), metric, re.sub(' +', ' ', away_value.text))
+
+
+        with open(path + 'matches/pmodds/json/{}.json'.format(match_id), 'w') as fp:
+            json.dump(d, fp, indent=2)
 
 
 def scrapepmodds():
@@ -568,7 +770,7 @@ def scrapepmodds():
 
         element = WebDriverWait(driver, 10).until(EC.presence_of_element_located((By.ID, "odds-format")))
 
-        oddscols = ['match_id','pmodd1','pmoddx','pmodd2']
+        oddscols = ['team_home','team_away','pmodd1','pmoddx','pmodd2']
         oddsdf = pd.DataFrame(columns=oddscols)
 
         table_main = driver.find_elements_by_css_selector(".soccer.odds")
@@ -602,9 +804,12 @@ def scrapepmodds():
                     pmodd2 = tr.find("td", {"class": lambda x: x and "cell_oc" in x.split()}).text
                     #print('{} - {} 1: {} - X: {} - 2: {} - {}'.format(team_home,team_away,odd1,oddx,odd2,match_id))
 
-                    row = list(map(str.strip,[match_id, pmodd1, pmoddx, pmodd2]))
-                    oddsdf = oddsdf.append(pd.DataFrame([row], columns=oddscols), ignore_index=True)
+                    row = list(map(str.strip,[team_home, team_away, pmodd1, pmoddx, pmodd2]))
+                    if pmodd1 != '-':
+                        oddsdf = oddsdf.append(pd.DataFrame([row], columns=oddscols), ignore_index=True)
 
+            oddsdf['team_home'] = oddsdf['team_home'].str.strip().replace(teamnames)
+            oddsdf['team_away'] = oddsdf['team_away'].str.strip().replace(teamnames)
             oddsdf.to_csv(path + 'matches/pmodds/pmodds.csv', index=False)
 
         driver.quit()
@@ -620,7 +825,6 @@ def scrapeoddsportalurls():
 
         cols = ['match_id', 'oddsportalurl']
         oddsportalurldf = pd.DataFrame(columns=cols)
-
 
         # open website
         options = Options()
@@ -644,23 +848,26 @@ def scrapeoddsportalurls():
                     oddsportalurldf = oddsportalurldf.append(pd.DataFrame([row], columns=cols), ignore_index=True)
 
         oddsportalurldf.to_csv(path +'/matches/liveodds/{}'.format(filename), index=False)
+        driver.quit()
 
 
 userids_list = ['442751368']# ['1208132010', '442751368']
 userids = ['442751368']
 
 scrapepmodds()
-extractpmodds()
-
 scrapeoddsportalurls()
 
-scrapesite()
-extractlivescores()
+scrape777sport()
+extractlivescores777()
+
+#scrapesite()
+#extractlivescores()
 addwatchlistinfo()
 addflagsandfields()
-
+#
 findlateshg()
 findfhg()
 findgoodbet()
 
-#dumpmatchsummary()
+dumpmatchsummary()
+extractstatsfrommatchfiles()

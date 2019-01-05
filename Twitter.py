@@ -35,7 +35,7 @@ class TwitterMsg:
                 match_id, alert_type, msg_text = msg
 
                 send_msg = TwitterMsg.api.PostDirectMessage(msg_text, user_id=user_id, return_json=True)
-                print(send_msg['event']['id'])
+                print('Sent Twitter DM: {}'.format(send_msg['event']['id']))
                 if send_msg['event']['id']:
                     row = list(map(str.strip, [match_id,alert_type,user_id]))
                     messages = messages.append(pd.DataFrame([row], columns=['match_id','alert_type','user_id']), ignore_index=True)
