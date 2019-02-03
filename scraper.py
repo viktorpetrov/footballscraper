@@ -453,7 +453,7 @@ def scrape777sport():
 
     #driver = webdriver.Chrome(chromedriver_path, options=options)
 
-    driver = webdriver.PhantomJS(executable_path='/Users/vpetrov/PycharmProjects/FootballAPI/venv/bin/phantomjs-2.1.1-macosx/bin/phantomjs')
+    driver = webdriver.PhantomJS(executable_path=phantomjs_path)
 
     time.sleep(1)  # Let the user actually see something!
 
@@ -547,6 +547,93 @@ def extractlivescores777():
 
     allgamesdf.sort_values('time_of_match', inplace=True)
     allgamesdf.to_csv(path + 'allgames.csv', index=False)
+
+
+def scrapesofascore():
+    from selenium.webdriver import DesiredCapabilities
+
+    # open website
+    options = Options()
+    options.headless = True
+
+    #driver = webdriver.Chrome(chromedriver_path, options=options)
+
+    driver = webdriver.PhantomJS(executable_path=phantomjs_path)
+
+    driver.get("https://www.sofascore.com/football/livescore")
+
+    wait = WebDriverWait(driver, 10)
+
+    table_main = driver.find_element_by_xpath("//div[contains(@class, 'js-event-list-table-container')]")
+    soup = BeautifulSoup(table_main.get_attribute('innerHTML'), "html.parser")
+
+    table = soup.prettify()
+
+    f = open(path + 'htmlsofascore.txt', 'w', encoding='utf-8')
+    f.write(table)
+    f.close()
+
+    driver.quit()
+
+
+def extractsofamatchlinks():
+
+    f = open(path + 'htmlsofascore.txt', 'r', encoding='utf-8')
+    lines = f.read().replace('\n', '')
+
+    soup = BeautifulSoup(lines, 'html.parser')
+
+    links = soup.findAll("a", {"class": lambda x: x and "cell--event-list" in x.split()})
+
+    f = open(path + 'sofamatchlinks.txt', 'w', encoding='utf-8')
+
+    for link in links:
+        #print(link['href'])
+        f.write('http://www.sofascore.com' + link['href'] + '\n')
+
+    f.close()
+
+
+def extractsofamatches():
+
+    from urllib.parse import urlparse
+
+    driver = webdriver.PhantomJS(executable_path=phantomjs_path)
+
+    f = open(path + 'sofamatchlinks.txt', 'r', encoding='utf-8')
+    for line in (x.strip() for x in f):
+
+        driver.get(line)
+        table_main = driver.find_element_by_class_name('page-container')
+        soup = BeautifulSoup(table_main.get_attribute('innerHTML'), "html.parser")
+        table = soup.prettify()
+
+        filename = path + 'matches/sofamatch/{}/{}.txt'.format(today,urlparse(line)[2][1:])
+        os.makedirs(os.path.dirname(filename), exist_ok=True)
+        with open(filename, "w") as f:
+            f.write(table)
+            f.close()
+
+    driver.quit()
+
+
+def statsfromsofafiles():
+
+    rootdir = os.fsencode(path + 'matches/sofamatch/{}'.format(today))
+
+    for subdir, dirs, files in os.walk(rootdir):
+        for file in files:
+            print(os.path.join(subdir, file))
+            lines = open(os.path.join(subdir, file)).read().replace('\n', '')
+
+            soup = BeautifulSoup(lines, 'html.parser')
+
+            votes = soup.find("div", {"class": 'js-event-page-vote-container'})
+            voteperc = votes.findAll("span", {"class": lambda x: x and "vote__pct" in x.split()})
+            perc_home = float(voteperc[0].text.strip().replace('%',''))
+            perc_x = float(voteperc[1].text.strip().replace('%',''))
+            perc_away = float(voteperc[2].text.strip().replace('%',''))
+
 
 
 def addwatchlistinfo():
@@ -1035,21 +1122,26 @@ def scrapeoddsportalurls():
 userids_list = ['442751368']# ['1208132010', '442751368']
 userids = ['442751368']
 
-scrapepmodds()
-scrapeoddsportalurls()
+#scrapesofascore()
+#extractsofamatchlinks()
+extractsofamatches()
+statsfromsofafiles()
 
-scrape777sport()
-extractlivescores777()
+#scrapepmodds()
+#scrapeoddsportalurls()
 
-addwatchlistinfo()
-addflagsandfields()
+#scrape777sport()
+#extractlivescores777()
+
+#addwatchlistinfo()
+#addflagsandfields()
 #
 #findlateshg()
 #findfhg()
-findgoodbet()
+#findgoodbet()
 
-dumpmatchsummary()
-extractstatsfrommatchfiles()
+#dumpmatchsummary()
+#extractstatsfrommatchfiles()
 
 # for key in sorted(teamnames):
 #     print("\'%s\': \'%s\'," % (key, teamnames[key]))
